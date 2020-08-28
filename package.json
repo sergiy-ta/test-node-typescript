@@ -2,9 +2,9 @@
   "name": "test-node-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "mocha --require ts-node/register --watch-extensions ts ./**.test.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/sergiy-ta/test-node-typescript/issues"
   },
-  "homepage": "https://github.com/sergiy-ta/test-node-typescript#readme"
+  "homepage": "https://github.com/sergiy-ta/test-node-typescript#readme",
+  "dependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
 }
