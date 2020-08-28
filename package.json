@@ -1,0 +1,19 @@
+{
+  "name": "test-node-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiy-ta/test-node-typescript.git"
+  },
+  "author": "Serhii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiy-ta/test-node-typescript/issues"
+  },
+  "homepage": "https://github.com/sergiy-ta/test-node-typescript#readme"
+}
